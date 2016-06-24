@@ -10,6 +10,8 @@ namespace ConsoleApplication1
   {
     static void Main(string[] args)
     {
+      var calc = new Calculation.Calculate();
+      int s = calc.Add(4, 3);
     }
   }
 }
